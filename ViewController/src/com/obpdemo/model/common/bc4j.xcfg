@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="com.obpdemo.model.MiniObpUiModule">
+      <AppModuleConfig name="MiniObpUiModuleLocal" DeployPlatform="LOCAL" password="" jbo.project="com.obpdemo.model.Model" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory" SessionClass="com.obpdemo.model.framework.CustomSessionImpl" ApplicationName="com.obpdemo.model.MiniObpUiModule">
+         <AM-Pooling jbo.ampool.connectionstrategyclass="com.obpdemo.model.framework.NoDatabaseConnectionStrategy" PoolClassName="com.obpdemo.model.framework.NoDatabaseApplicationPoolImpl"/>
+         <Database jbo.TypeMapEntries="OracleApps"/>
+         <Security AppModuleJndiName="com.obpdemo.model.MiniObpUiModule"/>
+         <Custom RequiresConnection="true"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

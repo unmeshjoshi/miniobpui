@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.1/weblogic-web-app.xsd" xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <jsp-descriptor xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">
+        <debug>true</debug>
+        <working-dir>/home/unmesh/work/projects/OBP/miniobpui/ViewController/classes/.wlsjsps/</working-dir>
+        <keepgenerated>false</keepgenerated>
+    </jsp-descriptor>
+    <context-root xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">miniobpui</context-root>
+    <library-ref xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">
+        <library-name>adf.oracle.domain.webapp</library-name>
+    </library-ref>
+    <library-ref xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">
+        <library-name>jstl</library-name>
+        <specification-version>1.2</specification-version>
+    </library-ref>
+    <library-ref xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">
+        <library-name>jsf</library-name>
+        <specification-version>1.2</specification-version>
+    </library-ref>
+</weblogic-web-app>

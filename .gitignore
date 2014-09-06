@@ -1,0 +1,8 @@
+*/classes/
+*.class
+ViewController/classes
+Model/classes
+*~
+dist
+distear
+classes

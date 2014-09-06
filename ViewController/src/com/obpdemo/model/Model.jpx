@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JboProject
+   xmlns="http://xmlns.oracle.com/bc4j"
+   Name="Model"
+   Version="11.1.1.64.93"
+   SeparateXMLFiles="true"
+   PackageName="com.obpdemo.model">
+   <DesignTime>
+      <Attr Name="_jprName" Value="../../../../ViewController.jpr"/>
+      <Attr Name="_appModuleNames0" Value="com.obpdemo.model.MiniObpUiModule"/>
+      <Attr Name="_jbo.TypeMapEntries" Value="OracleApps"/>
+   </DesignTime>
+   <Containee
+      Name="model"
+      PackageName="com.obpdemo.model"
+      ObjectType="JboPackage">
+      <DesignTime>
+         <Attr Name="_VO" Value="true"/>
+         <Attr Name="_AM" Value="true"/>
+      </DesignTime>
+   </Containee>
+</JboProject>
