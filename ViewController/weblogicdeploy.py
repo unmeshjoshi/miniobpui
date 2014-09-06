@@ -1,6 +1,6 @@
 import re
  
-warPath = 'dist/miniobpui.ear'
+warPath = 'target/dist/miniobpui.ear'
 appName = 'miniobpui'
 
 weblogicUrl = 't3://127.0.0.1:7001'
