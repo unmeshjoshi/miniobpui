@@ -440,10 +440,5 @@
         <patternset refid="copy.patterns"/>
       </fileset>
     </copy>
-    <copy todir="${output.dir}">
-      <fileset dir="adfmsrc">
-        <patternset refid="copy.patterns"/>
-      </fileset>
-    </copy>
   </target>
 </project>
