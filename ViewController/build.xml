@@ -372,8 +372,8 @@
   </target>
   
   <target name="ear" depends="war">
-    <ear destfile="${dist}/miniobpui.ear" appxml="../src/META-INF/application.xml">
-        <metainf dir="../src/META-INF"/>
+    <ear destfile="${dist}/miniobpui.ear" appxml="META-INF/application.xml">
+        <metainf dir="META-INF"/>
         <fileset dir="${dist.ear}" includes="*.jar,*.war"/>
     </ear>
   </target>
